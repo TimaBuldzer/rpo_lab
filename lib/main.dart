@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:rpo/screens/homepage/HomePageScreen.dart';
 import 'package:rpo/state/settings.dart';
@@ -16,9 +17,14 @@ class MyHttpOverrides extends HttpOverrides {
 }
 
 Future<void> main() async {
+  FlutterNativeSplash.removeAfter(initialization);
+
+  runApp(MyApp());
+}
+
+void initialization(BuildContext context) async {
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
