@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "347247683266",
+    "project_id": "rpo-labs",
+    "storage_bucket": "rpo-labs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347247683266:android:11fc9480be0cbfa2a8fd5b",
+        "android_client_info": {
+          "package_name": "com.example.rpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347247683266-kj087hlovcnpkc48g5ka02ni7vtuhhoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLY8OvtjSZiyD7H62qtRsFGQRChh7lgOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347247683266-kj087hlovcnpkc48g5ka02ni7vtuhhoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
