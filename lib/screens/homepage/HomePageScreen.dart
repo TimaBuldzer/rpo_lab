@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rpo/screens/entitiespage/EntitiesPageScreen.dart';
 import 'package:rpo/screens/mapspage/MapsPageScreen.dart';
+import 'package:rpo/screens/settingspage/SettingsPageScreen.dart';
 
 class HomePageScreen extends StatefulWidget {
   const HomePageScreen({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
     }else if(selectedIndex == 1){
       return const MapsPageScreen();
     }else{
-      return const EntitiesPageScreen();
+      return SettingsPageScreen();
     }
   }
 
